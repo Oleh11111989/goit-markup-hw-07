@@ -1,6 +1,5 @@
 .hero {
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -16,7 +15,7 @@
   background-size: cover;
   background-color: var(--hero-background);
 }
-.hero-title {
+.hero__title {
   margin-right: auto;
   margin-left: auto;
   width: 696px;
@@ -30,8 +29,8 @@
 }
 
 
-.button:hover,
-.button:focus {
+.order-button:hover,
+.order-button:focus {
   color: var(--background-color);
   background-color: var(--highlight-hover);
 }

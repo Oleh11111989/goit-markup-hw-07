@@ -1,19 +1,22 @@
-.advantages-title {
+.advantages__title {
   margin: 0;
 }
-.advantages-list {
+.advantages__list {
   display: flex;
   justify-content: space-between;
 }
-.advantages-list__item {
+.advantages__item {
   margin: 0;
-}
 
-.advantages-list__item:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantages-list__thumb {
+}
+
+
+
+.advantages__thumb {
   display: flex;
   align-items: center;
   justify-content: center;
